@@ -1,0 +1,129 @@
+body {
+    width:960px; 
+    max-width:100%; 
+    margin:20px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    line-height: 2em;
+}
+a:active {
+    color: #222E50;
+}
+a {
+    color: #B3679B;
+}
+ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px; 
+}
+a[href="#cat-care"] {
+    margin: 30px;
+}
+a[href="#quizzes"] {
+    margin: 30px;
+}
+a[href="#community"] {
+    margin: 30px;
+}
+h2 {
+    padding-left: 20px;
+    color: #B3679B;
+    border: solid 2px #222E50; 
+    border-radius: 10px; 
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+}
+h3 {
+    font-weight: bold;
+}
+ .care {    
+    text-align: center;
+    width: 33%;
+    border: solid 1px #222E50;
+    border-radius: 10%;
+    padding: 30px;
+ }
+.quizzes {
+    text-align: center;
+    width: 33%;
+    border: solid 1px #222E50;
+    border-radius: 10%;
+    padding: 30px;
+}
+.cat-community {
+    text-align: center;
+    width: 33%;
+    border: solid 1px #222E50;
+    border-radius: 10%;
+    padding: 30px;
+}
+td:nth-child(1) {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+td[colspan="2"] {
+    background-color: transparent;
+}
+td {
+    padding: 20px;
+}
+.feature-container {
+    border: center;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.feature-container img {
+    width: 300px;
+}
+div > p:nth-child(2) {
+    text-align: center;
+}
+#cat-care {
+    text-align: center;
+    font-weight: bold;
+}
+#quizzes {
+    text-align: center;
+    font-weight: bold;
+}
+#community {
+    text-align: center;
+    font-weight: bold;
+}
+.feature-container ul {
+    list-style-type: disc;
+    margin-left: 50px
+}
+/* this code doesn't want to align to the right, I am confused. ** use a p last type for div selector
+a[href="#top"] {
+    text-align: right;
+}
+    */
+.community {
+    text-align: center;
+}
+.first {
+    border: solid 4px;
+    width: 250px;
+    border-color: #7CA982;
+}
+.second {
+    border: solid 4px;
+    width: 250px;
+    border-color:  #E6A563;
+}
+.third {
+    border: solid 4px;
+    width: 250px;
+    border-color: #B36793;
+}
+.events {
+    width: 30%;
+    border: solid 1px #222E50;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
